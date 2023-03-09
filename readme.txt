@@ -24,3 +24,10 @@ directory, simply change the value of "SCRAPED_DIR" in the .env file.
 NOTE: Scraping for multiple programming languages would require one
 full cycle of the process per language per github profile. So instead,
 you should import data you scraped into a database and then query it.
+
+UPDATE:
+.env file seems to have gotten lost since I've changed computers a few
+times from the time this repo was created. From just looking at the code,
+I've deduced it needs a "SCRAPED_DIR" key with a valid path to a directory
+but that's about it. You don't even need it if you decide to specify dir
+path via -d argument.
