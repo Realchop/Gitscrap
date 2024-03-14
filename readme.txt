@@ -1,3 +1,6 @@
+Neke izmene idu ovde
+
+
 How to setup:
 First, create a virtual env and move main.py, scraping.py, req.txt 
 and .env file in it. Next, download the latest version of geckodriver
